@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
@@ -56,9 +56,9 @@ function App() {
                 </div>
                 <div className="footer pb-3 pt-5 ms-3">
                   <Tada>
-                    <h4 className="text-center">
-                      Made With <span className="text-danger">♥</span> Abdul
-                      Latif &copy; 2025
+                    <h4 className="footer-text">
+                      Made With <span className="text-danger">♥</span>
+                      <Link className="linkLogin" to="/login"> Abdul Latif </Link>&copy; 2025
                     </h4>
                   </Tada>
                 </div>

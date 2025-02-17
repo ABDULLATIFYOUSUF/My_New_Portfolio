@@ -59,6 +59,11 @@ function Login() {
           Login
         </button>
       </div>
+      <div className="backDiv">
+        <button className="backBtn" onClick={() => navigate("/")}>
+          Back to Home
+        </button>
+      </div>
     </>
   );
 }

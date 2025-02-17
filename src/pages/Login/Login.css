@@ -25,3 +25,16 @@
   width: 70%;
   margin-bottom: 20px;
 }
+.backDiv{
+  display: flex;
+  justify-content: center;
+}
+.backBtn{
+  background-color: #138781;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: bold;
+  width: 30%;
+}

@@ -3,8 +3,10 @@ import { db, collection, getDocs, deleteDoc, doc } from "../../../firebase.js";
 import "./Dashboard.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
+  const navigate = useNavigate()
   const deleteBtn = async (messageId) => {
     try {
       await deleteDoc(doc(db, "Messages", messageId));
@@ -75,7 +77,7 @@ const Dashboard = () => {
     toast.success("Logout Successfully", {
       position: "top-center",
     });
-    window.location.reload();
+    navigate("/")
   };
 
   return (

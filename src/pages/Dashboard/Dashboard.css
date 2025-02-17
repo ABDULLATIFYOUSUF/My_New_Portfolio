@@ -1,0 +1,77 @@
+.message-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px;
+}
+.dashboard {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+.btnDiv {
+  display: flex;
+  gap: 20px;
+}
+.delAllBtn {
+  background-color: #138781;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+.delAllBtn:hover {
+  background-color: white;
+  color: #138781;
+  border: 2px solid #138781;
+  transition: 1s;
+}
+.logoutBtn {
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(247, 89, 89);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.logoutBtn:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+  transition: 1s;
+}
+.message-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  width: 500px;
+}
+.message-card span {
+  font-weight: bold;
+}
+.message-card button {
+  background-color: #138781;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.message-card button:hover {
+  background-color: white;
+  color: #138781;
+  border: 5px solid #138781;
+  transition: 1s;
+}
+.message .noMsgPara {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}

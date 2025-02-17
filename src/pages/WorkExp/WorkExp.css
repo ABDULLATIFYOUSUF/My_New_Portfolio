@@ -1,0 +1,43 @@
+.work {
+  margin-left: 100px;
+  margin-top: 60px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.work-exp {
+  padding: 60px 0px;
+}
+.work-exp h2 {
+  font-weight: bold;
+  color: #1e1e2c;
+}
+.work-exp hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+.work-exp .vertical-timeline-element-title {
+  color: #138781;
+}
+.work-exp .vertical-timeline-element-subtitle {
+  color: #1e1e2c77;
+}
+#dark .work h2 {
+  color: #138781;
+}
+#dark .vertical-timeline-element-date {
+  color: #138781;
+}
+#dark .vertical-timeline-element .vertical-timeline-element-icon {
+  background-color: #138781 !important;
+}
+@media (max-width: 600px) {
+  .work {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .work hr {
+    width: 280px;
+  }
+}

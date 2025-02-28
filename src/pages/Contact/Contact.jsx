@@ -58,8 +58,8 @@ function Contact() {
                       <h6>
                         Contact with
                         <a href="https://www.linkedin.com/in/abdul-latif-531428263/" target="_blank"><BsLinkedin color="blue" size={30} className="ms-2" /></a>
-                        <BsGithub color="black" size={30} className="ms-2" />
-                        <BsFacebook color="blue" size={30} className="ms-2" />
+                        <a href="https://github.com/ABDULLATIFYOUSUF" target="_blank"><BsGithub color="black" size={30} className="ms-2" /></a>
+                        <a href="https://www.facebook.com/latif.memon.50" target="_blank"><BsFacebook color="blue" size={30} className="ms-2" /></a>
                       </h6>
                     </div>
                     <div className="row px-3 mb-4">

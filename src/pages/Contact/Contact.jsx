@@ -57,7 +57,7 @@ function Contact() {
                     <div className="row">
                       <h6>
                         Contact with
-                        <BsLinkedin color="blue" size={30} className="ms-2" ><a href="https://www.linkedin.com/in/abdul-latif-531428263/"></a></BsLinkedin>
+                        <a href="https://www.linkedin.com/in/abdul-latif-531428263/" target="_blank"><BsLinkedin color="blue" size={30} className="ms-2" /></a>
                         <BsGithub color="black" size={30} className="ms-2" />
                         <BsFacebook color="blue" size={30} className="ms-2" />
                       </h6>

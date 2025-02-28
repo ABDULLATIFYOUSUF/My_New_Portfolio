@@ -42,7 +42,7 @@ const Home = () => {
           <Fade direction="bottom">
             <div className="home-buttons">
               <a
-                href="https://api.whatsapp.com/send?phone=03002902939"
+                href="https://api.whatsapp.com/send?phone=03002288944"
                 rel="noreferrer"
                 target="_blank"
                 className="btn btn-hire"
